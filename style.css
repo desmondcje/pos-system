@@ -1,3 +1,5 @@
+
+
 body {
     background: #21252b;
     color: #333;
@@ -22,8 +24,9 @@ input, button {
 
 .mainDiv{
     background: #fff;
-    padding: 20px;
-    width: 430px;
+    padding: 20px 20px;
+    width: 500px;
+    float: center;
     height: 100px;
     margin: 20px;
     box-shadow: 0 0 20px #333;
@@ -69,3 +72,10 @@ button {
     border-radius: 10%;
     margin: 10px;
 }
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .mainDiv {
+      width:90%;
+    }
+  }
