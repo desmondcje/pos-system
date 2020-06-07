@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <title>DC POS Web App</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+    <script src="https://use.fontawesome.com/939e9dd52c.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div class="mainDiv" align="right">
+        <h1 align="left">Table No.</h1>
+        <input id="text_input1" placeholder="Enter text here..." maxlength="25"></textarea>
+    </div>
+
+    <div class="mainDiv" align="right">
+        <h1 align="left">Name</h1>
+        <input id="text_input2" placeholder="Enter text here ..." maxlength="25"></textarea>
+
+        <button id="submit_btn" onclick="submitOnClick()"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+    </div>
+
+    <!--Firebase-->
+
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase.js"></script>
+
+    <script src="firebaseConfig.js"></script>
+
+    <script src = "index.js"></script>
+
+</body>
+
+</html>
