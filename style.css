@@ -17,14 +17,14 @@ body {
 
 input, button {
     border: 0;
-    padding: 10px;
+    padding: 0px;
 }
 
 .mainDiv{
     background: #fff;
     padding: 20px;
-    width: 450px;
-    height: 110px;
+    width: 430px;
+    height: 100px;
     margin: 20px;
     box-shadow: 0 0 20px #333;
     border-radius: 10pt;
@@ -38,7 +38,7 @@ h1 {
 
 input {
     border: 0px;
-    background: #fff;
+    background: rgb(228, 66, 66);
     color: rgb(65, 65, 65);
     outline: none;
     width: 100%;
@@ -65,7 +65,7 @@ button {
     top: 40px;
     width: 60px;
     height: 40px;
-    line-height: 38px;
+    line-height: 20px;
     border-radius: 10%;
     margin: 10px;
 }
